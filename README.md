@@ -26,3 +26,5 @@ This project was built using:
 - **JavaScript**: For client-side scripting and dynamic content rendering.
 - **React**: To build a component-based architecture for better maintainability and scalability.
 - **OpenWeatherMap API**: To fetch weather data and forecasts in real-time.
+
+PS: To run this locally, you need to create a .env file which contains **REACT_APP_API_KEY** from *api.openweathermap.org* website!!
