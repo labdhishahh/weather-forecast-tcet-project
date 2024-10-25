@@ -1,0 +1,68 @@
+/* Temperature Display */
+.Temperature {
+  font-size: 2.25rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+
+/* Unit Styling */
+.units {
+  font-size: 0.9rem;
+  position: relative;
+  bottom: 0.25rem;
+  font-weight: 500;
+  color: var(--text-color-secondary);
+  transition: font-size 0.3s ease, bottom 0.3s ease;
+}
+
+/* Active Unit Styling */
+.active {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+/* Temperature Link Styling */
+.Temperature a {
+  text-decoration: none;
+  color: var(--accent-color);
+  transition: color 0.2s ease;
+}
+
+/* Tablet Screen Adjustments */
+@media screen and (min-width: 576px) {
+  .Temperature {
+    font-size: 2.8rem;
+  }
+
+  .units {
+    font-size: 1rem;
+    bottom: 0.3rem;
+  }
+}
+
+/* Large Screen Adjustments */
+@media screen and (min-width: 768px) {
+  .Temperature {
+    font-size: 3.25rem;
+  }
+
+  .units {
+    font-size: 1.1rem;
+    bottom: 0.4rem;
+  }
+}
+
+/* Extra Large Screen Adjustments */
+@media screen and (min-width: 992px) {
+  .Temperature {
+    font-size: 3rem;
+  }
+
+  .units {
+    font-size: 0.95rem;
+  }
+}

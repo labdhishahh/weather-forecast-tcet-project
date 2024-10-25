@@ -1,0 +1,16 @@
+:root {
+  /* Primary Colors */
+  --background-color: #dfeef1;
+  --primary-color: #71bdc8;
+  --darker-primary-color: #487f84;
+  --accent-color: #0e7879;
+
+  /* Text & Link Colors */
+  --text-color: #11282d;
+  --link-color: #3a7d8b;
+  --link-hover-color: #2c5058;
+
+  /* Shadows and Borders */
+  --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  --border-color: rgba(126, 185, 205, 0.3);
+}
