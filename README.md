@@ -6,7 +6,7 @@ The **Weather Forecast Website** is a dynamic web application that provides user
 
 ## Live Demo
 
-Check out the live version of the project here: [Project URL](https://shecodesreact-weather-forecast.netlify.app/) (hosted on Netlify)
+Check out the live version of the project here: [Project URL](https://weather-forecast-ip-project.netlify.app/) (hosted on Netlify)
 
 ## Features
 
